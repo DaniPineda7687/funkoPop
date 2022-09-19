@@ -43,6 +43,9 @@ imagesContainer.forEach((image,index) =>{
 image.addEventListener("touchstart",()=>{
         image.childNodes[1].src=paths[index]
     })
+image.addEventListener("touchmove",()=>{
+        image.childNodes[1].src=paths[index]
+    })
 image.addEventListener("touchend",()=>{
         image.childNodes[1].src=currentPath;
     
