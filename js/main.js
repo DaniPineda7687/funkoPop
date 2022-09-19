@@ -40,4 +40,11 @@ imagesContainer.forEach((image,index) =>{
         image.childNodes[1].src=currentPath;
     
     })
+image.addEventListener("touchenter",()=>{
+        image.childNodes[1].src=paths[index]
+    })
+image.addEventListener("touchend",()=>{
+        image.childNodes[1].src=currentPath;
+    
+    })
 })
