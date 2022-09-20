@@ -622,7 +622,7 @@ footer{
         display: none;
         background-color: #e6e6e6;
     }
-    .header__menu__container i:hover{
+    .nav__other__options__desk div i:hover{
         cursor: pointer;
     }
     .nav__products__container__desk:nth-child(even){
