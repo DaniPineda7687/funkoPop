@@ -622,10 +622,14 @@ footer{
         display: none;
         background-color: #e6e6e6;
     }
+    .header__menu__container i:hover{
+        cursor: pointer;
+    }
     .nav__products__container__desk:nth-child(even){
         background-color: #e6e6e6;
     }
 }
+
 .menu__desk__visible{
     top: 65px;
     display: flex;
