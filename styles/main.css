@@ -350,7 +350,7 @@ body.nav-open{
 .product__card{
     position: relative;
     display: grid;
-    grid-template-rows: 1fr 100px max-content;
+    grid-template-rows: 1fr 80px max-content;
     cursor: pointer;
 
 }
